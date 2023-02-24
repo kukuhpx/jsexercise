@@ -29,14 +29,6 @@ Deleting Repo Branch's Name:
 > git branch -d [branch's name]
 Deleting a Folder:
 > git rm -r [folder's name]
-
-GITHUB COMMAND
-Changing Remote URL:
-1. > git remote set-url [remote name] [new remote url].
-2. > git fetch [remote name] [branch name].
-3. > git pull [remote name] [branch name].
-4. > git push [remote name] [branch name].
-
 Checking The Remote You Owned:
 > git remote -v
 Creating a GitHub Remote:
@@ -59,3 +51,10 @@ Downloading Your Commit with Merge Your Local Branch:
 > git fetch [remote name] [branch name]
 Downloading Your Repository in GitHub:
 > git clone [your git url in github]
+
+GITHUB COMMAND
+Changing Remote URL:
+1. > git remote set-url [remote name] [new remote url].
+2. > git fetch [remote name] [branch name].
+3. > git pull [remote name] [branch name].
+4. > git push [remote name] [branch name].git
