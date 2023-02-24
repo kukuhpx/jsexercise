@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handler - Onclick</title>
+</head>
+<body>
+    <h1>Latihan Event Onclick</h1>
+    <p>Klik tombol di bawah untuk memanggil fungsi.</p>
+    <p id="demo"></p>
+    <script>
+        obj = document.getElementById("demo");
+        function addText(obj){
+            document.getElementById(obj).innerHTML="You have been added a text successfully";
+        }
+    </script>
+    <style>
+        button {
+            margin-right: 15px;
+        }
+    </style>
+    <button onclick="addText('demo')">Try It 1</button>
+    <button onclick="obj.innerHTML='It works'">Try It 2</button>
+    <button onclick="this.innerHTML='Amazing tried'">Try It 3</button>
+</body>
+</html>

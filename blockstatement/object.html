@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Statement - Object</title>
+</head>
+<body>
+    <h1>Block Statement - Object</h1>
+    <p>Click the button below to create an object</p>
+    <p id="demo"></p>
+    <script>
+        // Create an object
+        const person = {
+            firstName: "Kukuh",
+            lastName: "Prihastomo",
+            fullName: function() {
+                return this.firstName + " " + this.lastName;
+            }
+        }
+
+        // Show the result
+        function showFullName() {
+            document.getElementById("demo").innerHTML = person.fullName();
+        }
+    </script>
+    <button onclick="showFullName()">Create an Object</button>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World in JavaScript</title>
+</head>
+<body>
+    <style>
+        h3 {font-weight: bold;}
+    </style>
+    <script>
+        document.write("<h1>Getting Started JavaScript</h1>");
+        document.write("<h2>1.1 Create Hello World Text</h2>");
+        document.write("Hello world");
+        document.write("<h2>1.2 Declaring Variables</h2>");
+        // Single declare varianle
+        let name = "Kukuh" + " ";
+        const date = "060696" + "<br/>";
+        document.write(name + date);
+        // Multiple declare varianle
+        let firstName = "Setya Hadi", lastName = "Nugroho <br/>";
+        document.write(firstName + " " + lastName);
+        // Undefinied value of variable
+        var x;
+        document.write("x = " + x);
+        document.write("<h2>1.3 Undeclared Variables</h2>");
+        y = 350;
+        document.write("My salary is $" + y);
+        document.write("<h2>1.4 Re-Declaring Variables</h2>");
+        var num = 10;
+        var num = 5;
+        document.write("The number is " + num);
+        /*
+        * You can't re-declare thw let and const variable
+        * let age = 25;
+        * let age = 20;
+        * const PI = 3.141592653589793;
+        * const PI = 3.14
+        */
+    </script>
+</body>
+</html>
