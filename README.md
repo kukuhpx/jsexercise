@@ -8,7 +8,7 @@ GIT COMMAND
 3. Checking Staging Files:
     > git status
 4. Adding Files to Staging Environment:
-    > git add [file name].[file format]
+    > git add [file's name].[file format]
     > git add --all
     > git add -A
     > git add *
@@ -19,10 +19,10 @@ GIT COMMAND
 6. Checking Braanch You Owned:	
     > git branch
 7. Creating a New Repo Branch:
-    > git branch -M [new branch name]	
+    > git branch -M [new branch's name]	
     > git branch [branch name]
 8. Switching Repo Branch:
-    > git checkout [your branch name]
+    > git checkout [your branch's name]
 9. Changing Repo Branch's Name:
     > git branch -m [new branch's name]
 10. Deleting Repo Branch's Name:
@@ -32,28 +32,28 @@ GIT COMMAND
 12. Checking The Remote You Owned:
     > git remote -v
 13. Creating a GitHub Remote:
-    > git remote add [remote name] [remote url]
+    > git remote add [remote's name] [remote url]
 14. Changing a Remote Name:
-    > git remote rename [old remote name] [new remote name]
+    > git remote rename [old remote's name] [new remote name]
 15. Deleting a Remote:
-    > git remote remove [remote name]
+    > git remote remove [remote's name]
 16. Showing Remote Information:
-    > git remote show [remote name]
+    > git remote show [remote's name]
 17. Changing Remote URL:
-    > git remote set-url [remote name] [remote url]
+    > git remote set-url [remote's name] [remote url]
 18. Uploading Your Repository to GitHub:
-    > git push [remote name] [branch name]
+    > git push [remote's name] [branch's name]
 19. Forcing Upload Your Repository to GitHub:
-    > git push -f [remote name] [branch name]
+    > git push -f [remote's name] [branch's name]
 20. Downloading Your Commit without Merge Your Local Branch:
-    > git pull [remote name] [branch name]
+    > git pull [remote's name] [branch's name]
 21. Downloading Your Commit with Merge Your Local Branch:
-    > git fetch [remote name] [branch name]
+    > git fetch [remote's name] [branch's name]
 22. Downloading Your Repository in GitHub:
     > git clone [your git url in github]
 
 GITHUB COMMAND
-1. > git remote set-url [remote name] [new remote url].
-2. > git fetch [remote name] [branch name].
-3. > git pull [remote name] [branch name].
-4. > git push [remote name] [branch name].git
+1. > git remote set-url [remote's name] [new remote's url].
+2. > git fetch [remote's name] [branch's name].
+3. > git pull [remote's name] [branch's name].
+4. > git push [remote's name] [branch's name].git
