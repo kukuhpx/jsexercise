@@ -1,4 +1,6 @@
-Repository latihan JavaScript dan pengembangan UI/UX web, selain itu terdapat Dev Notes di sini.
+The repository for CSS exercise, there is a DEV NOTES to note all important things here.
+<br>
+The repo was also included the GIT COMMAND and GITHUB COMMAND for additional purpose.
 
 GIT COMMAND
 1. Checking GIT Version:
@@ -56,4 +58,4 @@ GITHUB COMMAND
 1. > git remote set-url [remote's name] [new remote's url].
 2. > git fetch [remote's name] [branch's name].
 3. > git pull [remote's name] [branch's name].
-4. > git push [remote's name] [branch's name].git
+4. > git push [remote's name] [branch's name].
