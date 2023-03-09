@@ -1,5 +1,5 @@
 #### **BOOTSTRAP EXERCISE**
-*The repository for CSS exercise.*
+*The repository for JavaScript exercise.*
 #### **GIT COMMAND**
 *Use these some command to use Git.*
 1. Checking Git version:
