@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Typeof</title>
+</head>
+<body>
+</body>
+<script>
+    let und;
+    let d = new Date();
+    let a = ["Kukuh", "Faiz"];
+    let arr = new Array();
+    let person = {
+        name: "John",
+        speak: function() {
+            return "I'm speaking";
+        },
+        move: function(){}
+    };
+    document.body.innerHTML =
+    "<h1>Typeof Operator</h1><br>" +
+    "Hello " + typeof "Hello is " + "<br>" +
+    "10 is " + typeof 10 + "<br>" +
+    "True is " + typeof true  + "<br>" +
+    "let und; is " + typeof und + "<br>" +
+    "new Date() is " + typeof d + "<br>" +
+    "new Array() is " + typeof arr + "<br>" +
+    "a[0] is " + typeof a[0] + "<br>" +
+    "d.getDay() is " + typeof d.getDay() + "<br>" +
+    "person is " + typeof person + "<br>" +
+    "person.name is " + typeof person.name + "<br>" +
+    "person.speak() is " + typeof person.speak() + "<br>"+
+    "person.move() is " + typeof person.move() + "<br>" + 
+    "document.querySelector(body) is " + typeof document.querySelector("body")
+    ;
+</script>
+</html>

@@ -1,7 +1,7 @@
 // Numbers
 let weight = 7.5;
 console.log(weight);
-// Strings:
+// Strings
 let color = "Yellow";
 console.log(color);
 // Booleans

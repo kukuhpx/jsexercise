@@ -1,5 +1,5 @@
 #### **BOOTSTRAP EXERCISE**
-*The repository for JavaScript exercise.*
+*The repository for JavaScriptkf exercise.*
 #### **GIT COMMAND**
 *Use these some command to use Git.*
 1. Checking Git version:
