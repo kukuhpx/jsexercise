@@ -17,12 +17,12 @@
 5. Commiting all staged files:
     > git commit -m ["your message"]
     > git commit -am ["your message"]
-6. Checking braanch you owned:	
+6. Checking branch you owned:	
     > git branch
 7. Creating a new branch's repo:
     > git branch -M [new branch's name]	
     > git branch [branch name]
-8. Switching a branch branch's name:
+8. Switching a branch's repo:
     > git checkout [your branch's name]
 9. Changing a branch's repo name:
     > git branch -m [new branch's name]
