@@ -24,7 +24,7 @@
     > git branch [branch name]
 8. Switching a branch branch's name:
     > git checkout [your branch's name]
-9. Changing a branch's name of repo:
+9. Changing a branch's repo name:
     > git branch -m [new branch's name]
 10. Deleting a branch's repo:
     > git branch -d [branch's name]
