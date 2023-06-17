@@ -32,19 +32,19 @@
     > git rm -r [folder's name]
 12. Checking the remote you owned:
     > git remote -vgit remote -v
-13. Creating a GitHub remote:
+13. Creating a GitHub's remote:
     > git remote add [remote's name] [remote url]
-14. Changing a remote name:
+14. Changing a remote's name:
     > git remote rename [old remote's name] [new remote name]
 15. Deleting a remote:
     > git remote remove [remote's name]
-16. Showing remote information:
+16. Showing remote's information:
     > git remote show [remote's name]
-17. Changing remote URL:
+17. Changing remote's URL:
     > git remote set-url [remote's name] [remote url]
-18. Uploading your repository to GitHub:
+18. Uploading your repo to GitHub:
     > git push [remote's name] [branch's name]
-19. Forcing upload your repository to GitHub:
+19. Uploading your repo to GitHub (FORCE MODE!):
     > git push -f [remote's name] [branch's name]
 20. Downloading your repository in GitHub:
     > git clone [your git url in github]
