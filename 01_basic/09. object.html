@@ -18,9 +18,12 @@
         function createObj() {
             var fn = document.getElementById("fn").value;
             var ln = document.getElementById("ln").value;
+            // Person is object
             var person = {
+                // firstName and lastName is property
                 firstName: fn,
                 lastName: ln,
+                // fullName is function
                 fullName: function() {
                     return this.firstName + " " + this.lastName;
                 }
