@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS _ OBject</title>
+</head>
+<body>
+    <h3>JavaScript Object</h3>
+    <p>Object is a variable or array who have property and method.</p>
+    <p><b>Example:</b></p>
+    <label>First Name:</label><input id="fn" type="text" placeholder="Type your first name" value="">
+    <label>Last Name:</label><input id="ln" type="text" placeholder="Type your last name" value="">
+    <button onclick="createObj()">Create Object</button>
+    <div id="objBox"></div>
+    <hr>
+    <script>
+        function createObj() {
+            var fn = document.getElementById("fn").value;
+            var ln = document.getElementById("ln").value;
+            var person = {
+                firstName: fn,
+                lastName: ln,
+                fullName: function() {
+                    return this.firstName + " " + this.lastName;
+                }
+            }
+            document.getElementById("objBox").innerHTML += person.fullName() + "<br>";
+        }
+    </script>
+</body>
+</html>

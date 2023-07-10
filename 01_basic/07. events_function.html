@@ -6,19 +6,15 @@
     <title>Event Handler - Onclick</title>
 </head>
 <body>
-    <h1>Latihan Event Onclick</h1>
+    <h3>Latihan Event Onclick</h3>
     <p>Klik tombol di bawah untuk memanggil fungsi.</p>
     <p id="demo"></p>
     <script>
         obj = document.getElementById("demo");
-        function addText(obj){
-            document.getElementById(obj).innerHTML="You have been added a text successfully";
-        }
+        function addText(obj) {document.getElementById(obj).innerHTML="You have been added a text successfully";}
     </script>
     <style>
-        button {
-            margin-right: 15px;
-        }
+        button {margin-right: 15px;}
     </style>
     <button onclick="addText('demo')">Try It 1</button>
     <button onclick="obj.innerHTML='It works'">Try It 2</button>

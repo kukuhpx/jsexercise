@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - String</title>
+</head>
+<body>
+    <h3>String's Quote</h3>
+    <script>
+        let sq = "sq = 'This is a single quote string'";
+        let dq = 'dq = "This is a double quote string"';
+        document.write(sq + "<br>" + dq);
+    </script>
+        <h3>Length of String</h3>
+        <script>
+            let str = "This is a string variable.";
+            document.write(str + "<br>");
+            document.write("The number of str is " + str.length + ".");
+        </script>
+        <h3>Breaking Long Code Line</h3>
+        <div id="blankBox"></div>
+        <script>
+            document.getElementById('blankBox').innerHTML = "This is a very long text, you can" +
+            "break this long text with string addition";
+        </script>
+        <h3>String as Object</h3>
+        <script>
+            let str1 = "This a string";
+            let str2 = new String("This is an object");
+            document.write("str1 is " + typeof str1 + "<br>" + "str2 is " + typeof str2);
+        </script>
+</body>
+</html>
